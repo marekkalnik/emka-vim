@@ -70,6 +70,3 @@ endfunction
 function! Bundle()
     return substitute(Namespace(), '\v^(.*)\\Bundle\\(.*)\\.*', '\1\2', '')
 endfunction
-
-" Powerline
-set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
