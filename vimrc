@@ -64,7 +64,7 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " Symfony2 functions
 function! Namespace()
-    return substitute(substitute(expand("%:h"), '\v^\w+\/(\u)', '\1', ''), '\/', '\\\\\\', 'g')
+    return substitute(substitute(expand("%:h"), '\v^\w+\/(\u)', '\1', ''), '\/', '\\\\', 'g')
 endfunction
 
 function! Bundle()
