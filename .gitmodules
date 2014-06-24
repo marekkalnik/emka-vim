@@ -47,3 +47,6 @@
     path = bundle/powerline
     url = https://github.com/Lokaltog/powerline.git
 
+[submodule "bundle/vim-ansible-yaml"]
+	path = bundle/vim-ansible-yaml
+	url = https://github.com/chase/vim-ansible-yaml.git

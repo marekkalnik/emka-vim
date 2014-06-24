@@ -13,6 +13,9 @@ then
     echo "Creating symlinks"
     ln -s $DIR/vimrc ~/.vimrc
     ln -sT $DIR ~/.vim
+    echo "Installing modules"
+    git submodule init
+    git submodule update
     echo "Done!"
 else
     echo "Installation aborted"
