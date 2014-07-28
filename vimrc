@@ -1,7 +1,6 @@
 " Boot and configure plugins
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 call pathogen#infect()
+Helptags
 
 filetype plugin indent on
 autocmd BufNewFile,BufRead *.json set filetype=javascript
