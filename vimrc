@@ -17,7 +17,7 @@ set expandtab
 set showcmd
 set hlsearch
 
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " Key bindings
 map <M-Left> <C-T>
