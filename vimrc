@@ -22,9 +22,10 @@ set clipboard=unnamedplus
 " Key bindings
 map <M-Left> <C-T>
 map <M-Right> g<C-]>
-map <Leader>n <plug>NERDTreeTabsToggle<CR>
-map <Leader>t :TagbarToggle<CR>
-map <Leader>f :NERDTreeFind<CR>
+
+nmap <Leader>n <plug>NERDTreeTabsToggle<CR>
+nmap <Leader>t :TagbarToggle<CR>
+nmap <Leader>f :NERDTreeFind<CR>
 
 " Folding
 set foldenable                                   " enable folding
@@ -47,15 +48,15 @@ let g:syntastic_auto_loc_lis=1
 let g:syntastic_enable_signs=1
 
 " Debugger configuration
-map <Leader>b <ESC>:Breakpoint
+nmap <Leader>b <ESC>:Breakpoint
 let g:debuggerMaxDepth = 3
 
 " PHPUnit
-map ,t :!phpunit -c app/ %<CR>
-map ,y :!phpunit %<CR>
+nmap ,t :!phpunit -c app/ %<CR>
+nmap ,y :!phpunit %<CR>
 
 " Highlight current variable
-map <Leader>h :call AutoHighlightToggle()<cr>
+nmap <Leader>h :call AutoHighlightToggle()<cr>
 
 " CtrlP - a file finder
 let g:ctrlp_map = '<C-P>'
