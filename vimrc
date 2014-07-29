@@ -50,12 +50,12 @@ let g:syntastic_enable_signs=1
 map <Leader>b <ESC>:Breakpoint
 let g:debuggerMaxDepth = 3
 
-" Auto highlight current variable
-autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
-
 " PHPUnit
 map ,t :!phpunit -c app/ %<CR>
 map ,y :!phpunit %<CR>
+
+" Highlight current variable
+map <Leader>h :call AutoHighlightToggle()<cr>
 
 " CtrlP - a file finder
 let g:ctrlp_map = '<C-P>'
