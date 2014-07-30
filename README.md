@@ -22,3 +22,7 @@ make also a global executable of node. To copy your current version use:
 Thanks for [DigitalOcean] for this handy oneliner.
 
 [DigitalOcean]: https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps#installation
+
+## Usage docs
+
+See [docs].
