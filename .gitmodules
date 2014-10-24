@@ -71,3 +71,6 @@
 [submodule "bundle/vim-markology"]
 	path = bundle/vim-markology
 	url = https://github.com/jeetsukumaran/vim-markology.git
+[submodule "bundle/vim-twig"]
+	path = bundle/vim-twig
+	url = https://github.com/evidens/vim-twig.git
